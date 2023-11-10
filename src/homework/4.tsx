@@ -12,7 +12,7 @@ type MenuSelected = {
   selectedMenu: SelectedMenu
 }
 const MenuSelectedContext = createContext<MenuSelected>({
-  selectedMenu: {id: "first"},
+  selectedMenu: {id: "second"},
 });
 
 // Додайте тип MenuAction
